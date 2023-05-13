@@ -1,0 +1,6 @@
+.card {
+  width: 200px;
+}
+.card-container {
+  display: flex;
+}
