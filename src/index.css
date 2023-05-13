@@ -1,6 +1,23 @@
 .card {
   width: 200px;
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  background-color: turquoise;
+  text-align: center;
 }
 .card-container {
   display: flex;
+}
+
+.title {
+  text-decoration: solid;
+  font-size: x-large;
+  font-weight: bolder;
+  display: block;
+}
+
+.image {
+  width: 200px;
+  height: 100px;
 }

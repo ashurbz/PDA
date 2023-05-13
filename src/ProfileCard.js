@@ -1,10 +1,11 @@
 import "./index.css";
 
-const ProfileCard = ({ title, handle }) => {
+const ProfileCard = ({ title, handle, image }) => {
   return (
     <div className="card">
-      <h3>{title}</h3>
-      <h4>{handle}</h4>
+      <img className="image" src={image} alt="pda" />
+      <span className="title">{title}</span>
+      <span className="handle">{handle}</span>
     </div>
   );
 };
